@@ -20,31 +20,31 @@
     <!-- Favicon
     ============================================ -->
    
-    <link rel="shortcut icon" type="{{ asset('image/png') }}" href="ico/favicon-16x16.png') }}"/>
+    <link rel="shortcut icon" type="image/png" href="ico/favicon-16x16.png"/>
     
    
     <!-- Libs CSS
     ============================================ -->
-    <link rel="stylesheet" href="{{ asset('css/bootstrap/css/bootstrap.min.css') }}">
-    <link href="{{ asset('css/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('js/datetimepicker/bootstrap-datetimepicker.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('js/owl-carousel/owl.carousel.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/themecss/lib.css') }}" rel="stylesheet">
-    <link href="{{ asset('js/jquery-ui/jquery-ui.min.css') }}" rel="stylesheet">
-    <link href="{{ asset('js/minicolors/miniColors.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="js/datetimepicker/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="css/themecss/lib.css" rel="stylesheet">
+    <link href="js/jquery-ui/jquery-ui.min.css" rel="stylesheet">
+    <link href="js/minicolors/miniColors.css" rel="stylesheet">
     
     <!-- Theme CSS
     ============================================ -->
-    <link href="{{ asset('css/themecss/so_searchpro.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/themecss/so_megamenu.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/themecss/so-categories.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/themecss/so-listing-tabs.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/themecss/so-newletter-popup.css') }}" rel="stylesheet">
+    <link href="css/themecss/so_searchpro.css" rel="stylesheet">
+    <link href="css/themecss/so_megamenu.css" rel="stylesheet">
+    <link href="css/themecss/so-categories.css" rel="stylesheet">
+    <link href="css/themecss/so-listing-tabs.css" rel="stylesheet">
+    <link href="css/themecss/so-newletter-popup.css" rel="stylesheet">
 
-    <link href="{{ asset('css/footer/footer4.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/header/header4.css') }}" rel="stylesheet">
-    <link id="color_scheme" href="{{ asset('css/home4.css') }}" rel="stylesheet"> 
-    <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
+    <link href="css/footer/footer4.css" rel="stylesheet">
+    <link href="css/header/header4.css" rel="stylesheet">
+    <link id="color_scheme" href="css/home4.css" rel="stylesheet"> 
+    <link href="css/responsive.css" rel="stylesheet">
 
      <!-- Google web fonts
     ============================================ -->
@@ -97,13 +97,13 @@
                                 <div class="btn-group languages-block ">
                                     <form action="index.php" method="post" enctype="multipart/form-data" id="bt-language">
                                         <a class="btn-link dropdown-toggle" data-toggle="dropdown">
-                                            <img src="{{ asset('image/catalog/flags/gb.png') }}" alt="English" title="English">
+                                            <img src="image/catalog/flags/gb.png" alt="English" title="English">
                                             <span class="">English</span>
                                             <span class="fa fa-angle-down"></span>
                                         </a>
                                         <ul class="dropdown-menu">
-                                            <li><a href="index.php"><img class="image_flag" src="{{ asset('image/catalog/flags/gb.png') }}" alt="English" title="English" /> English </a></li>
-                                            <li> <a href="index.php"> <img class="image_flag" src="{{ asset('image/catalog/flags/ar.png') }}" alt="Arabic" title="Arabic" /> Arabic </a> </li>
+                                            <li><a href="index.php"><img class="image_flag" src="image/catalog/flags/gb.png" alt="English" title="English" /> English </a></li>
+                                            <li> <a href="index.php"> <img class="image_flag" src="image/catalog/flags/ar.png" alt="Arabic" title="Arabic" /> Arabic </a> </li>
                                         </ul>
                                     </form>
                                 </div>
@@ -144,7 +144,7 @@
                 <div class="row">
                     <!-- Logo -->
                     <div class="navbar-logo col-lg-2 col-md-3 col-sm-12 col-xs-12">
-                        <div class="logo"><a href="index.php"><img src="{{ asset('image/catalog/logo4.png') }}" title="Your Store" alt="Your Store" /></a></div>
+                        <div class="logo"><a href="index.php"><img src="image/catalog/logo4.png" title="Your Store" alt="Your Store" /></a></div>
                     </div>
                     <!-- //end Logo -->
                     <!-- Search -->
@@ -210,7 +210,7 @@
                                                 <tr>
                                                     <td class="text-center" style="width:70px">
                                                         <a href="product.html">
-                                                            <img src="{{ asset('image/catalog/demo/product/80/1.jpg') }}" style="width:70px" alt="Yutculpa ullamcon" title="Yutculpa ullamco" class="preview">
+                                                            <img src="image/catalog/demo/product/80/1.jpg" style="width:70px" alt="Yutculpa ullamcon" title="Yutculpa ullamco" class="preview">
                                                         </a>
                                                     </td>
                                                     <td class="text-left"> <a class="cart_product_name" href="product.html">Yutculpa ullamco</a> 
@@ -227,7 +227,7 @@
                                                 <tr>
                                                     <td class="text-center" style="width:70px">
                                                         <a href="product.html">
-                                                            <img src="{{ asset('image/catalog/demo/product/80/2.jpg') }}" style="width:70px" alt="Xancetta bresao" title="Xancetta bresao" class="preview">
+                                                            <img src="image/catalog/demo/product/80/2.jpg" style="width:70px" alt="Xancetta bresao" title="Xancetta bresao" class="preview">
                                                         </a>
                                                     </td>
                                                     <td class="text-left"> <a class="cart_product_name" href="product.html">Xancetta bresao</a> 
@@ -326,7 +326,7 @@
                                                         <li class="item-vertical  with-sub-menu hover">
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
-                                                                <img src="{{ asset('image/catalog/menu/icons/ico10.png') }}" alt="icon">
+                                                                <img src="image/catalog/menu/icons/ico10.png" alt="icon">
                                                                 <span>Gifts & Toys</span>
                                                                 <b class="caret"></b>
                                                             </a>
@@ -407,7 +407,7 @@
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
                                                                 
-                                                                <img src="{{ asset('image/catalog/menu/icons/ico1.png') }}" alt="icon">
+                                                                <img src="image/catalog/menu/icons/ico1.png" alt="icon">
                                                                 <span>Fashion & Accessories</span>
                                                             </a>
                                                         </li>
@@ -415,7 +415,7 @@
                                                             <p class="close-menu"></p>
                                                             <a href="#" class="clearfix">
                                                                 <span class="label"></span>
-                                                                <img src="{{ asset('image/catalog/menu/icons/ico9.png') }}" alt="icon">
+                                                                <img src="image/catalog/menu/icons/ico9.png" alt="icon">
                                                                 <span>Electronic</span>
                                                                 <b class="caret"></b>
                                                             </a>
@@ -461,7 +461,7 @@
                                                                         <div class="col-md-6">
                                                                             <div class="row banner">
                                                                                 <a href="#">
-                                                                                    <img src="{{ asset('image/catalog/menu/megabanner/vbanner1.jpg') }}" alt="banner1">
+                                                                                    <img src="image/catalog/menu/megabanner/vbanner1.jpg" alt="banner1">
                                                                                     </a>
                                                                                 </div>
                                                                             </div>
@@ -472,7 +472,7 @@
                                                             <li class="item-vertical with-sub-menu hover">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico7.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico7.png" alt="icon">
                                                                     <span>Health &amp; Beauty</span>
                                                                     <b class="caret"></b>
                                                                 </a>
@@ -603,7 +603,7 @@
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
                                                                     
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico6.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico6.png" alt="icon">
                                                                     <span>Smartphone &amp; Tablets</span>
                                                                     <b class="caret"></b>
                                                                 </a>
@@ -642,7 +642,7 @@
                                                             <li class="item-vertical">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico5.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico5.png" alt="icon">
                                                                     <span>Health & Beauty</span>
                                                                     
                                                                 </a>
@@ -650,21 +650,21 @@
                                                             <li class="item-vertical">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico4.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico4.png" alt="icon">
                                                                     <span>Bathroom</span>
                                                                 </a>
                                                             </li>
                                                             <li class="item-vertical">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico3.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico3.png" alt="icon">
                                                                     <span>Metallurgy</span>
                                                                 </a>
                                                             </li>
                                                             <li class="item-vertical" >
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                    <img src="{{ asset('image/catalog/menu/icons/ico2.png') }}" alt="icon">
+                                                                    <img src="image/catalog/menu/icons/ico2.png" alt="icon">
                                                                     <span>Bedroom</span>
                                                                 </a>
                                                             </li>
@@ -672,35 +672,35 @@
                                                                 <p class="close-menu"></p>
                                                                 
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico1.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico1.png" alt="icon">
                                                                     <span>Health &amp; Beauty</span>
                                                                 </a>
                                                             </li>
                                                             <li class="item-vertical" style="display: none;">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico11.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico11.png" alt="icon">
                                                                     <span>Toys &amp; Hobbies </span>
                                                                 </a>
                                                             </li>
                                                             <li class="item-vertical" style="display: none;">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico12.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico12.png" alt="icon">
                                                                     <span>Jewelry &amp; Watches</span>
                                                                 </a>
                                                             </li>
                                                             <li class="item-vertical" style="display: none;">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico9.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico9.png" alt="icon">
                                                                     <span>Home &amp; Lights</span>
                                                                 </a>
                                                             </li>
                                                             <li class="item-vertical" style="display: none;">
                                                                 <p class="close-menu"></p>
                                                                 <a href="#" class="clearfix">
-                                                                     <img src="{{ asset('image/catalog/menu/icons/ico6.png') }}" alt="icon">
+                                                                     <img src="image/catalog/menu/icons/ico6.png" alt="icon">
                                                                     <span>Metallurgy</span>
                                                                 </a>
                                                             </li>
@@ -744,7 +744,7 @@
                                                                     <div class="col-md-4">
                                                                         <a href="index.php" class="image-link"> 
                                                                             <span class="thumbnail">
-                                                                                <img class="img-responsive img-border" src="{{ asset('image/catalog/menu/home-1.jpg') }}" alt="">
+                                                                                <img class="img-responsive img-border" src="image/catalog/menu/home-1.jpg" alt="">
                                                                                 
                                                                             </span> 
                                                                             <h3 class="figcaption">Home page - (Default)</h3> 
@@ -754,7 +754,7 @@
                                                                     <div class="col-md-4">
                                                                         <a href="index2.php" class="image-link"> 
                                                                             <span class="thumbnail">
-                                                                                <img class="img-responsive img-border" src="{{ asset('image/catalog/menu/home-2.jpg') }}" alt="">
+                                                                                <img class="img-responsive img-border" src="image/catalog/menu/home-2.jpg" alt="">
                                                                                
                                                                             </span> 
                                                                             <h3 class="figcaption">Home page - Layout 2</h3> 
@@ -764,7 +764,7 @@
                                                                     <div class="col-md-4">
                                                                         <a href="index3.php" class="image-link"> 
                                                                             <span class="thumbnail">
-                                                                                <img class="img-responsive img-border" src="{{ asset('image/catalog/menu/home-3.jpg') }}" alt="">
+                                                                                <img class="img-responsive img-border" src="image/catalog/menu/home-3.jpg" alt="">
                                                                                
                                                                             </span> 
                                                                             <h3 class="figcaption">Home page - Layout 3</h3> 
@@ -774,7 +774,7 @@
                                                                     <div class="col-md-4">
                                                                         <a href="index4.php" class="image-link"> 
                                                                             <span class="thumbnail">
-                                                                                <img class="img-responsive img-border" src="{{ asset('image/catalog/menu/home-4.jpg') }}" alt="">
+                                                                                <img class="img-responsive img-border" src="image/catalog/menu/home-4.jpg" alt="">
                                                                                 
                                                                             </span> 
                                                                             <h3 class="figcaption">Home page - Layout 4</h3> 
@@ -784,7 +784,7 @@
                                                                     <div class="col-md-4">
                                                                         <a href="html_width_RTL/index.php" class="image-link"> 
                                                                             <span class="thumbnail">
-                                                                                <img class="img-responsive img-border" src="{{ asset('image/catalog/menu/rtl.jpg') }}" alt="">
+                                                                                <img class="img-responsive img-border" src="image/catalog/menu/rtl.jpg" alt="">
                                                                                 
                                                                             </span> 
                                                                             <h3 class="figcaption">RTL Layout</h3> 
@@ -794,7 +794,7 @@
                                                                     <div class="col-md-4">
                                                                         <a href="mobile/index.html" class="image-link"> 
                                                                             <span class="thumbnail">
-                                                                                <img class="img-responsive img-border" src="{{ asset('image/catalog/menu/mobile.jpg') }}" alt="">
+                                                                                <img class="img-responsive img-border" src="image/catalog/menu/mobile.jpg" alt="">
                                                                                 
                                                                             </span> 
                                                                             <h3 class="figcaption">Mobile Layout</h3> 
@@ -805,7 +805,7 @@
                                                                     <!-- <div class="col-md-15">
                                                                         <a href="#" class="image-link"> 
                                                                             <span class="thumbnail">
-                                                                                <img class="img-responsive img-border" src="image/demo/feature/comming-soon.png') }}" alt="">
+                                                                                <img class="img-responsive img-border" src="image/demo/feature/comming-soon.png" alt="">
                                                                                 
                                                                             </span> 
                                                                             <h3 class="figcaption">Comming soon</h3> 
@@ -820,7 +820,7 @@
                                                         <p class="close-menu"></p>
                                                         <a href="#" class="clearfix">
                                                             <strong>Features</strong>
-                                                            <img class="label-hot" src="{{ asset('image/catalog/menu/new-icon.png') }}" alt="icon items">
+                                                            <img class="label-hot" src="image/catalog/menu/new-icon.png" alt="icon items">
                                                             <b class="caret"></b>
                                                         </a>
                                                         <div class="sub-menu" style="width: 100%; right: auto;">
@@ -919,7 +919,7 @@
                                                         <p class="close-menu"></p>
                                                         <a href="#" class="clearfix">
                                                             <strong>Categories</strong>
-                                                            <img class="label-hot" src="{{ asset('image/catalog/menu/hot-icon.png') }}" alt="icon items">
+                                                            <img class="label-hot" src="image/catalog/menu/hot-icon.png" alt="icon items">
                                                   
                                                             <b class="caret"></b>
                                                         </a>
@@ -929,16 +929,16 @@
                                                                     <div class="col-sm-12">
                                                                         <div class="row">
                                                                             <div class="col-md-3 img img1">
-                                                                                <a href="#"><img src="{{ asset('image/catalog/menu/megabanner/image-1.jpg') }}" alt="banner1"></a>
+                                                                                <a href="#"><img src="image/catalog/menu/megabanner/image-1.jpg" alt="banner1"></a>
                                                                             </div>
                                                                             <div class="col-md-3 img img2">
-                                                                                <a href="#"><img src="{{ asset('image/catalog/menu/megabanner/image-2.jpg') }}" alt="banner2"></a>
+                                                                                <a href="#"><img src="image/catalog/menu/megabanner/image-2.jpg" alt="banner2"></a>
                                                                             </div>
                                                                             <div class="col-md-3 img img3">
-                                                                                <a href="#"><img src="{{ asset('image/catalog/menu/megabanner/image-3.jpg') }}" alt="banner3"></a>
+                                                                                <a href="#"><img src="image/catalog/menu/megabanner/image-3.jpg" alt="banner3"></a>
                                                                             </div>
                                                                             <div class="col-md-3 img img4">
-                                                                                <a href="#"><img src="{{ asset('image/catalog/menu/megabanner/image-4.jpg') }}" alt="banner4"></a>
+                                                                                <a href="#"><img src="image/catalog/menu/megabanner/image-4.jpg" alt="banner4"></a>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1069,13 +1069,13 @@
                 <div class="module sohomepage-slider ">
                     <div class="yt-content-slider"  data-rtl="yes" data-autoplay="no" data-autoheight="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="1" data-items_column1="1" data-items_column2="1"  data-items_column3="1" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-loop="no" data-hoverpause="yes">
                         <div class="yt-content-slide">
-                            <a href="#"><img src="{{ asset('image/catalog/slideshow/home4/slide-1.jpg') }}" alt="slider1" class="img-responsive"></a>
+                            <a href="#"><img src="image/catalog/slideshow/home4/slide-1.jpg" alt="slider1" class="img-responsive"></a>
                         </div>
                         <div class="yt-content-slide">
-                            <a href="#"><img src="{{ asset('image/catalog/slideshow/home4/slide-2.jpg') }}" alt="slider2" class="img-responsive"></a>
+                            <a href="#"><img src="image/catalog/slideshow/home4/slide-2.jpg" alt="slider2" class="img-responsive"></a>
                         </div>
                         <div class="yt-content-slide">
-                            <a href="#"><img src="{{ asset('image/catalog/slideshow/home4/slide-3.jpg') }}" alt="slider3" class="img-responsive"></a>
+                            <a href="#"><img src="image/catalog/slideshow/home4/slide-3.jpg" alt="slider3" class="img-responsive"></a>
                         </div>
                     </div>
                     
@@ -1111,7 +1111,7 @@
                                                             <span class="label label-sale">-13%</span>
                                                         </div>
                                                         <a href="#" target="_self" title="product">
-                                                            <img src="{{ asset('image/catalog/demo/product/index2/330/1.jpg') }}" alt="Ground round enim" class="img-responsive">
+                                                            <img src="image/catalog/demo/product/index2/330/1.jpg" alt="Ground round enim" class="img-responsive">
                                                         </a>
                                                         
                                                     </div>
@@ -1169,7 +1169,7 @@
                                                             <span class="label label-sale">-10%</span>
                                                         </div>
                                                         <a href="#" target="_self" title="product">
-                                                            <img src="{{ asset('image/catalog/demo/product/index2/330/2.jpg') }}" alt="Hofficia chicken" class="img-responsive">
+                                                            <img src="image/catalog/demo/product/index2/330/2.jpg" alt="Hofficia chicken" class="img-responsive">
                                                         </a>
                                                         
                                                     </div>
@@ -1227,7 +1227,7 @@
                                                             <span class="label label-sale">-20%</span>
                                                         </div>
                                                         <a href="#" target="_self" title="product">
-                                                            <img src="{{ asset('image/catalog/demo/product/index2/330/3.jpg') }}" alt="Lastrami deserunt" class="img-responsive">
+                                                            <img src="image/catalog/demo/product/index2/330/3.jpg" alt="Lastrami deserunt" class="img-responsive">
                                                         </a>
                                                         
                                                     </div>
@@ -1300,7 +1300,7 @@
                                                                 <span class="label label-sale">-13%</span>
                                                             </div>
                                                             <a href="#" target="_self" title="product">
-                                                                <img src="{{ asset('image/catalog/demo/product/index2/270/2.jpg') }}" alt="Ground round enim" class="img-responsive">
+                                                                <img src="image/catalog/demo/product/index2/270/2.jpg" alt="Ground round enim" class="img-responsive">
                                                             </a>
                                                             
                                                         </div>
@@ -1349,7 +1349,7 @@
                                                         <div class="image"> 
                                                             
                                                             <a href="#" target="_self" title="product">
-                                                                <img src="{{ asset('image/catalog/demo/product/index2/270/10.jpg') }}" alt="Mapicola incididuv " class="img-responsive">
+                                                                <img src="image/catalog/demo/product/index2/270/10.jpg" alt="Mapicola incididuv " class="img-responsive">
                                                             </a>
                                                             
                                                         </div>
@@ -1398,7 +1398,7 @@
                                                         <div class="image"> 
                                                            
                                                             <a href="#" target="_self" title="product">
-                                                                <img src="{{ asset('image/catalog/demo/product/index2/270/3.jpg') }}" alt="Corem ipsum dolor" class="img-responsive">
+                                                                <img src="image/catalog/demo/product/index2/270/3.jpg" alt="Corem ipsum dolor" class="img-responsive">
                                                             </a>
                                                             
                                                         </div>
@@ -1448,7 +1448,7 @@
                                                                 <span class="label-product label-new">New</span>
                                                             </div>
                                                             <a href="#" target="_self" title="product">
-                                                                <img src="{{ asset('image/catalog/demo/product/index2/270/4.jpg') }}" alt="Benderloin officia" class="img-responsive">
+                                                                <img src="image/catalog/demo/product/index2/270/4.jpg" alt="Benderloin officia" class="img-responsive">
                                                             </a>
                                                             
                                                         </div>
@@ -1496,7 +1496,7 @@
                                                         <div class="image"> 
                                                   
                                                             <a href="#" target="_self" title="product">
-                                                                <img src="{{ asset('image/catalog/demo/product/index2/270/5.jpg') }}" alt="Rumstick shankle" class="img-responsive">
+                                                                <img src="image/catalog/demo/product/index2/270/5.jpg" alt="Rumstick shankle" class="img-responsive">
                                                             </a>
                                                             
                                                         </div>
@@ -1548,7 +1548,7 @@
                         <div class="content-box">
                             <div class="image-cat">
                                 <a href="#" title="Smartphone" target="_self">
-                                    <img src="{{ asset('image/catalog/demo/category/id4-cat1.jpg') }}" title="Smartphone" alt="Smartphone" />
+                                    <img src="image/catalog/demo/category/id4-cat1.jpg" title="Smartphone" alt="Smartphone" />
                                 </a>
                             </div>
                             <div class="cat-title"> 
@@ -1558,7 +1558,7 @@
                         <div class="content-box">
                             <div class="image-cat">
                                 <a href="#" title="Fashion" target="_self">
-                                    <img src="{{ asset('image/catalog/demo/category/id4-cat2.jpg') }}" title="Fashion" alt="Fashion" />
+                                    <img src="image/catalog/demo/category/id4-cat2.jpg" title="Fashion" alt="Fashion" />
                                 </a>
                             </div>
                             <div class="cat-title"> 
@@ -1569,7 +1569,7 @@
                         <div class="content-box">
                             <div class="image-cat">
                                 <a href="#" title="Sport bikes " target="_self">
-                                    <img src="{{ asset('image/catalog/demo/category/id4-cat3.jpg') }}" title="Sport bikes " alt="Sport bikes " />
+                                    <img src="image/catalog/demo/category/id4-cat3.jpg" title="Sport bikes " alt="Sport bikes " />
                                 </a>
                             </div>
                             <div class="cat-title"> 
@@ -1579,7 +1579,7 @@
                         <div class="content-box">
                             <div class="image-cat">
                                 <a href="#" title="Furniture & Decor" target="_self">
-                                    <img src="{{ asset('image/catalog/demo/category/id4-cat4.jpg') }}" title="Furniture & Decor" alt="Furniture & Decor" />
+                                    <img src="image/catalog/demo/category/id4-cat4.jpg" title="Furniture & Decor" alt="Furniture & Decor" />
                                 </a>
                             </div>
                             <div class="cat-title"> 
@@ -1589,7 +1589,7 @@
                         <div class="content-box">
                             <div class="image-cat">
                                 <a href="#" title="Appliances" target="_self">
-                                    <img src="{{ asset('image/catalog/demo/category/id4-cat5.jpg') }}" title="Appliances" alt="Appliances" />
+                                    <img src="image/catalog/demo/category/id4-cat5.jpg" title="Appliances" alt="Appliances" />
                                 </a>
                             </div>
                             <div class="cat-title"> 
@@ -1599,7 +1599,7 @@
                         <div class="content-box">
                             <div class="image-cat">
                                 <a href="#" title="Sine engain" target="_self">
-                                    <img src="{{ asset('image/catalog/demo/category/id4-cat3.jpg') }}" title="Sine engain" alt="Sine engain" />
+                                    <img src="image/catalog/demo/category/id4-cat3.jpg" title="Sine engain" alt="Sine engain" />
                                 </a>
                             </div>
                             <div class="cat-title"> 
@@ -1627,7 +1627,7 @@
                                                         <span class="label label-sale">-13%</span>
                                                     </div>
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/6.jpg') }}" alt="Ground round enim" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/6.jpg" alt="Ground round enim" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -1676,7 +1676,7 @@
                                                 <div class="image"> 
                                                     
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/7.jpg') }}" alt="Mapicola incididuv " class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/7.jpg" alt="Mapicola incididuv " class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -1725,7 +1725,7 @@
                                                 <div class="image"> 
                                                    
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/8.jpg') }}" alt="Corem ipsum dolor" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/8.jpg" alt="Corem ipsum dolor" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -1775,7 +1775,7 @@
                                                         <span class="label-product label-new">New</span>
                                                     </div>
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/9.jpg') }}" alt="Benderloin officia" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/9.jpg" alt="Benderloin officia" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -1823,7 +1823,7 @@
                                                 <div class="image"> 
                                           
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/10.jpg') }}" alt="Rumstick shankle" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/10.jpg" alt="Rumstick shankle" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -1868,7 +1868,7 @@
                                                 <div class="image"> 
                                                     
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/1.jpg') }}" alt="Mapicola incididuv " class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/1.jpg" alt="Mapicola incididuv " class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -1917,7 +1917,7 @@
                                                 <div class="image"> 
                                                    
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/2.jpg') }}" alt="Corem ipsum dolor" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/2.jpg" alt="Corem ipsum dolor" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -1967,7 +1967,7 @@
                                                         <span class="label-product label-new">New</span>
                                                     </div>
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/3.jpg') }}" alt="Benderloin officia" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/3.jpg" alt="Benderloin officia" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2030,7 +2030,7 @@
                                                         <span class="label label-sale">-13%</span>
                                                     </div>
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/4.jpg') }}" alt="Ground round enim" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/4.jpg" alt="Ground round enim" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2079,7 +2079,7 @@
                                                 <div class="image"> 
                                                     
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/5.jpg') }}" alt="Mapicola incididuv " class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/5.jpg" alt="Mapicola incididuv " class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2128,7 +2128,7 @@
                                                 <div class="image"> 
                                                    
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/6.jpg') }}" alt="Corem ipsum dolor" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/6.jpg" alt="Corem ipsum dolor" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2178,7 +2178,7 @@
                                                         <span class="label-product label-new">New</span>
                                                     </div>
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/7.jpg') }}" alt="Benderloin officia" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/7.jpg" alt="Benderloin officia" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2226,7 +2226,7 @@
                                                 <div class="image"> 
                                           
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/8.jpg') }}" alt="Rumstick shankle" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/8.jpg" alt="Rumstick shankle" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2271,7 +2271,7 @@
                                                 <div class="image"> 
                                                     
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/9.jpg') }}" alt="Mapicola incididuv " class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/9.jpg" alt="Mapicola incididuv " class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2320,7 +2320,7 @@
                                                 <div class="image"> 
                                                    
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/10.jpg') }}" alt="Corem ipsum dolor" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/10.jpg" alt="Corem ipsum dolor" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2370,7 +2370,7 @@
                                                         <span class="label-product label-new">New</span>
                                                     </div>
                                                     <a href="#" target="_self" title="product">
-                                                        <img src="{{ asset('image/catalog/demo/product/index2/270/1.jpg') }}" alt="Benderloin officia" class="img-responsive">
+                                                        <img src="image/catalog/demo/product/index2/270/1.jpg" alt="Benderloin officia" class="img-responsive">
                                                     </a>
                                                     
                                                 </div>
@@ -2427,7 +2427,7 @@
                                 <div class="item">
                                     <div class="media-left">
                                         <a href="#" target="_self">
-                                            <img src="{{ asset('image/catalog/blog/6.jpg') }}" alt="Biten demons lector in henderit in vulp" />
+                                            <img src="image/catalog/blog/6.jpg" alt="Biten demons lector in henderit in vulp" />
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -2446,7 +2446,7 @@
                                 <div class="item">
                                     <div class="media-left">
                                         <a href="#" target="_self">
-                                            <img src="{{ asset('image/catalog/blog/4.jpg') }}" alt="Lorem ipsum dolor sit amet, consetetur sadipscing elitr" />
+                                            <img src="image/catalog/blog/4.jpg" alt="Lorem ipsum dolor sit amet, consetetur sadipscing elitr" />
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -2465,7 +2465,7 @@
                                 <div class="item">
                                     <div class="media-left">
                                         <a href="#" target="_self">
-                                            <img src="{{ asset('image/catalog/blog/5.jpg') }}" alt="Stet clita kasd gubergren no sea takimata sanctus est" />
+                                            <img src="image/catalog/blog/5.jpg" alt="Stet clita kasd gubergren no sea takimata sanctus est" />
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -2484,7 +2484,7 @@
                                 <div class="item">
                                     <div class="media-left">
                                         <a href="#" target="_self">
-                                            <img src="{{ asset('image/catalog/blog/3.jpg') }}" alt="Ut wisi enim ad minim veniam quis nostrud exerci tation" />
+                                            <img src="image/catalog/blog/3.jpg" alt="Ut wisi enim ad minim veniam quis nostrud exerci tation" />
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -2503,7 +2503,7 @@
                                 <div class="item">
                                     <div class="media-left">
                                         <a href="#" target="_self">
-                                            <img src="{{ asset('image/catalog/blog/2.jpg') }}" alt="Duis autem vel eum iriure dolor in hendrerit in vulputate" />
+                                            <img src="image/catalog/blog/2.jpg" alt="Duis autem vel eum iriure dolor in hendrerit in vulputate" />
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -2521,7 +2521,7 @@
                                 <div class="item">
                                     <div class="media-left">
                                         <a href="#" target="_self">
-                                            <img src="{{ asset('image/catalog/blog/1.jpg') }}" alt="Ut wisi enim ad minim veniam quis nostrud exerci tation" />
+                                            <img src="image/catalog/blog/1.jpg" alt="Ut wisi enim ad minim veniam quis nostrud exerci tation" />
                                         </a>
                                     </div>
                                     <div class="media-body">
@@ -2544,31 +2544,31 @@
             <div class="slider-brands clearfix">
                 <div class="yt-content-slider contentslider" data-rtl="no" data-loop="yes" data-autoplay="no" data-autoheight="no" data-autowidth="no" data-delay="4" data-speed="0.6" data-margin="0" data-items_column0="7" data-items_column1="6" data-items_column2="3" data-items_column3="2" data-items_column4="1" data-arrows="yes" data-pagination="no" data-lazyload="yes" data-hoverpause="yes">
                     <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand1.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand1.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand2.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand2.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand3.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand3.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand4.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand4.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand5.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand5.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand6.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand6.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand7.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand7.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand8.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand8.jpg" alt="brand"></a>
                      </div>
                      <div class="item">
-                     <a href="#"><img src="{{ asset('image/catalog/brands/id4-brand5.jpg') }}" alt="brand"></a>
+                     <a href="#"><img src="image/catalog/brands/id4-brand5.jpg" alt="brand"></a>
                      </div>
                 </div>
             </div>
@@ -2711,12 +2711,12 @@
                             <ul>
                                 <li>
                                     <a title="App Store" href="#">
-                                        <img src="{{ asset('image/catalog/demo/payment/app-1.png') }}" alt="App Store">
+                                        <img src="image/catalog/demo/payment/app-1.png" alt="App Store">
                                     </a>
                                 </li>
                                 <li>
                                     <a title="App Store" href="#">
-                                        <img src="{{ asset('image/catalog/demo/payment/app-2.png') }}" alt="App Store">
+                                        <img src="image/catalog/demo/payment/app-2.png" alt="App Store">
                                     </a>
                                 </li>
                             </ul>
@@ -2761,7 +2761,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 payment-w">
-                        <img src="{{ asset('image/catalog/demo/payment/payment-4.png') }}" alt="imgpayment">
+                        <img src="image/catalog/demo/payment/payment-4.png" alt="imgpayment">
                     </div>
                 </div>
             </div>
@@ -2778,71 +2778,6 @@
    
 
 <!-- Cpanel Block -->
-<div id="sp-cpanel_btn" class="isDown visible-lg">
-    <i class="fa fa-cog"></i>
-</div>      
-<div id="sp-cpanel" class="sp-delay">
-    <h2 class="sp-cpanel-title"> Demo Options <span class="sp-cpanel-close"> <i class="fa fa-times"> </i></span></h2>
-    <div id="sp-cpanel_settings">
-        <form action="" method="post" class="myform" >
-
-        <div class="panel-group">
-            <label>Color Scheme</label>
-            
-            <div class="group-schemes">
-                <input name="cplthemesColors" class="minicolors minicolors-input form-control" type="text" value="#f4A137" size="7">
-                
-             </div>
-        </div>
-        
-        
-        <div class="panel-group ">
-            <label>Layout Box</label>
-            <div class="group-boxed">
-                <select id="cp-layoutbox" name="cplayoutbox" class="form-control" onchange="changeLayoutBox(this.value);">
-                    <option value="full">Wide</option>
-                    <option value="boxed">Boxed</option>
-                </select>
-            </div>
-        </div>
-        
-        <div class="panel-group">
-            <label>Body Image</label>
-            
-            <div class="group-pattern">
-                                <div data-pattern="28"  class="img-pattern"><img src="image/theme/patterns/28.png') }}" alt="pattern 28"></div>
-                                <div data-pattern="29"  class="img-pattern"><img src="image/theme/patterns/29.png') }}" alt="pattern 29"></div>
-                                <div data-pattern="30"  class="img-pattern"><img src="image/theme/patterns/30.png') }}" alt="pattern 30"></div>
-                                <div data-pattern="31"  class="img-pattern"><img src="image/theme/patterns/31.png') }}" alt="pattern 31"></div>
-                                <div data-pattern="32"  class="img-pattern"><img src="image/theme/patterns/32.png') }}" alt="pattern 32"></div>
-                                <div data-pattern="33"  class="img-pattern"><img src="image/theme/patterns/33.png') }}" alt="pattern 33"></div>
-                                <div data-pattern="34"  class="img-pattern"><img src="image/theme/patterns/34.png') }}" alt="pattern 34"></div>
-                                <div data-pattern="35"  class="img-pattern"><img src="image/theme/patterns/35.png') }}" alt="pattern 35"></div>
-                                <div data-pattern="36"  class="img-pattern"><img src="image/theme/patterns/36.png') }}" alt="pattern 36"></div>
-                                <div data-pattern="37"  class="img-pattern"><img src="image/theme/patterns/37.png') }}" alt="pattern 37"></div>
-                                <div data-pattern="38"  class="img-pattern"><img src="image/theme/patterns/38.png') }}" alt="pattern 38"></div>
-                                <div data-pattern="39"  class="img-pattern"><img src="image/theme/patterns/39.png') }}" alt="pattern 39"></div>
-                                <div data-pattern="40"  class="img-pattern"><img src="image/theme/patterns/40.png') }}" alt="pattern 40"></div>
-                                <div data-pattern="41"  class="img-pattern"><img src="image/theme/patterns/41.png') }}" alt="pattern 41"></div>
-                                <div data-pattern="42"  class="img-pattern"><img src="image/theme/patterns/42.png') }}" alt="pattern 42"></div>
-                                <div data-pattern="43"  class="img-pattern"><img src="image/theme/patterns/43.png') }}" alt="pattern 43"></div>
-                                <div data-pattern="44"  class="img-pattern"><img src="image/theme/patterns/44.png') }}" alt="pattern 44"></div>
-                                <div data-pattern="45"  class="img-pattern"><img src="image/theme/patterns/45.png') }}" alt="pattern 45"></div>
-                            </div>
-            <p class="label-sm">Background only applies for Boxed,Framed, Rounded Layout</p>
-            <button type="button" style="width:100%" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-lg"><i class="fa fa-file-text"></i> Get Skin CSS</button>
-
-        </div>
-        
-        <div class="reset-group">
-            <input type="submit" name="submit-reset" class="btn btn-success " value="Reset" onClick="ResetAll();">
-            <input type="submit" name="submitbtn" class="btn" value="Apply">
-        </div>
-        </form>
-    </div>
-
-</div>
-
 
 <!-- Begin Color Scheme
 ============================================ -->
